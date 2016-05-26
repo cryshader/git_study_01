@@ -142,6 +142,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="base_class.h" />
+    <ClInclude Include="child.h" />
+    <ClInclude Include="parent_02.h" />
     <ClInclude Include="some_class.h" />
   </ItemGroup>
   <ItemGroup>
