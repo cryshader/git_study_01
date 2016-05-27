@@ -1,11 +1,13 @@
 #include <iostream>
-#include "some_class.h"
+#include "child.h"
 
 int main() {
-	parent p;
+	child p;
 	p.a = 50;
 
-	std::cout << "Hello! " << p.a << "\n";
+	std::cout << "\nHello! " << p.a << "\n";
 	std::cout << "It's me again :)\n";
+
+	getchar();
 	return 0;
 }
