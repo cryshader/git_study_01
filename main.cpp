@@ -1,12 +1,21 @@
 #include <iostream>
-#include "child.h"
+#include <ctime>
+#include <string>
+#include <vector>
+#include <crtdefs.h>
 
-int main() {
-	child p;
-	p.a = 50;
+using namespace std;
 
-	std::cout << "\nHello! " << p.a << "\n";
-	std::cout << "It's me again :)\n";
+//#include "child.h"
+
+int main() {	
+	
+	vector<int> vi{ 1,2,3,4 };
+	
+	// TIME PASSED
+	/* begin = clock();	
+	printf("Opt -> Time Elapsed: %g\n", double(clock() - begin) / CLOCKS_PER_SEC);
+	*/
 
 	getchar();
 	return 0;
